@@ -1,91 +1,81 @@
-{
-  "questions": [
-    {
-      "title": "Hva heter du?",
+{"questions": [
+  {
+    "title": "Hva er mocking i kontekst av JavaScript-testing",
+    "answers": [
+      { "answer": "En metode for å lage falske kopier av objekter i koden." },
+      {
+        "answer": "En teknikk for å isolere og kontrollere oppførselen til deler av koden under testing",
+        "correct": true 
+      },
+      {
+        "answer": "En tilnærming for å teste brukergrensesnittet til en nettside"
+      },
+      {
+        "answer": "En metode for å oppdage feil i JavaScript-koden"
+      }
+    ],
+    "helper": {
+      "text": "Brukes til å simulere eller erstatte eksterne avhengigheter i tester"
+    }
+  },
+
+  {
+      "title": "Hva er et fake i testing",
       "answers": [
+        { "answer": "En type falsk informasjon som brukes til å forvirre tester" },
         {
-          "answere": "Marius"
+          "answer": "En metode for å generere tilfeldige data i teste"
         },
         {
-          "answere": "Ole"
+          "answer": "En form for feilsøking i kodebasen"
         },
         {
-          "answere": "Tommy",
+          "answer": "En implementasjon som etterligner en ekstern avhengighet i tester",
           "correct": true
-        },
-        {
-          "answere": "Knut"
         }
       ],
       "helper": {
-        "text": "Hvem retter oppgaver i fullstækk"
+        "text": " En etterligning av eksterne avhengigheter for testing"
       }
     },
+
     {
-      "title": "Hva heter den svarte og hvite katten min",
+      "title": "Hva er en spy i JavaScript-testing?",
       "answers": [
+        { "answer": " En metode for å overvåke brukerens interaksjoner med et nettsted" },
         {
-          "answere": "Mons"
+          "answer": " En teknikk for å kopiere og sikre data i JavaScript"
         },
         {
-          "answere": "Mini"
+          "answer": "En teknikk for å utføre enhetstesting i JavaScript"
         },
         {
-          "answere": "Monty"
-        },
-        {
-          "answere": "Melvin",
+          "answer": "En funksjon som lar deg spore og overvåke kall til andre funksjoner",
           "correct": true
         }
       ],
       "helper": {
-        "text": "Han er veldig søt"
+        "text": "Brukes til å spore funksjonsanrop i tester"
       }
     },
+
     {
-      "title": "Hva er min favoritt energidrikke",
+      "title": "Hva er Jest i JavaScript-testing",
       "answers": [
+        { "answer": "En JavaScript-motor for å kjøre nettlesere" },
         {
-          "answere": "Burn"
-        },
-        {
-          "answere": "Monster Aussie Lemonade, helst iskald",
+          "answer": " Et populært JavaScript-testrammeverk",
           "correct": true
         },
         {
-          "answere": "Redbull"
+          "answer": "En metode for å style HTML-elementer"
         },
         {
-          "answere": "Franks"
+          "answer": "En form for serverapplikasjon i JavaScript"
         }
       ],
       "helper": {
-        "text": "Ganske spesifikt"
-      }
-    },
-    {
-      "title": "Hva liker Mini å jakte på",
-      "answers": [
-        {
-          "answere": "Sommerfugl",
-          "correct": true
-        },
-        {
-          "answere": "Pillows, fugler og mus",
-          "correct": true
-        },
-        {
-          "answere": "Slange",
-          "correct": true
-        },
-        {
-          "answere": "Veps",
-          "correct": true
-        }
-      ],
-      "helper": {
-        "text": "Ho er veldig crazy"
+        "text": "Brukes til å etterligne oppførsel."
       }
     }
-  ]
-}
+]}
