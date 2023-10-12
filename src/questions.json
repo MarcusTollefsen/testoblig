@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "title": "Hva heter du?",
+      "answers": [
+        {
+          "answere": "Marius"
+        },
+        {
+          "answere": "Ole"
+        },
+        {
+          "answere": "Tommy",
+          "correct": true
+        },
+        {
+          "answere": "Knut"
+        }
+      ],
+      "helper": {
+        "text": "Hvem retter oppgaver i fullstækk"
+      }
+    },
+    {
+      "title": "Hva heter den svarte og hvite katten min",
+      "answers": [
+        {
+          "answere": "Mons"
+        },
+        {
+          "answere": "Mini"
+        },
+        {
+          "answere": "Monty"
+        },
+        {
+          "answere": "Melvin",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Han er veldig søt"
+      }
+    },
+    {
+      "title": "Hva er min favoritt energidrikke",
+      "answers": [
+        {
+          "answere": "Burn"
+        },
+        {
+          "answere": "Monster Aussie Lemonade, helst iskald",
+          "correct": true
+        },
+        {
+          "answere": "Redbull"
+        },
+        {
+          "answere": "Franks"
+        }
+      ],
+      "helper": {
+        "text": "Ganske spesifikt"
+      }
+    },
+    {
+      "title": "Hva liker Mini å jakte på",
+      "answers": [
+        {
+          "answere": "Sommerfugl",
+          "correct": true
+        },
+        {
+          "answere": "Pillows, fugler og mus",
+          "correct": true
+        },
+        {
+          "answere": "Slange",
+          "correct": true
+        },
+        {
+          "answere": "Veps",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Ho er veldig crazy"
+      }
+    }
+  ]
+}
